@@ -1,2 +1,0 @@
-class SightwordsController < ApplicationController
-end
