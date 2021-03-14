@@ -16,7 +16,7 @@ class Api::V1::SightwordsController < ApplicationController
     private
 
     def sightword_params
-        params.require(:sightword).permit(:word, :pronunciation_url, :word_url, :list_id)
+        params.require(:sightword).permit(:word, :pronunciation_url, :list_id)
     end
 
 end
