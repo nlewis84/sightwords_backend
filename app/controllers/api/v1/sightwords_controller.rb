@@ -12,7 +12,6 @@ class Api::V1::SightwordsController < ApplicationController
             render json: {errors: sightword.errors.full_messages}, status: :unprocessible_entity
         end
     end
-    end
 
     private
 
