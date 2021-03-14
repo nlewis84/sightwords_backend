@@ -6,6 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+List.destroy_all
+Sightword.destroy_all
+
+
 List.create(name: "first")
 
 Sightword.create(word: "this", pronunciation_url: "www.google.com", word_url: "www.google.com", list_id: 1)

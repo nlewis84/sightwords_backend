@@ -1,3 +1,3 @@
 class List < ApplicationRecord
-    has_many :sightwords
+    has_many :sightwords, dependent: :destroy
 end
