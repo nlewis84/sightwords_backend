@@ -1,4 +1,4 @@
 class SightwordSerializer
   include FastJsonapi::ObjectSerializer
-  attributes 
+  attributes :word
 end
