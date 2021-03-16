@@ -13,6 +13,11 @@ class Api::V1::ListsController < ApplicationController
         end
     end
 
+    def show
+        list = List.find(params[:id])
+        render json: ListSerializer.new(list)
+    end
+
     private
 
     def list_params

@@ -13,6 +13,11 @@ class Api::V1::SightwordsController < ApplicationController
         end
     end
 
+    def show
+        sightword = Sightword.find(params[:id])
+        render json: SightwordSerializer.new(sightword)
+    end
+
     private
 
     def sightword_params
