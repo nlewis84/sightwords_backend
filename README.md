@@ -1,24 +1,14 @@
 # README
+# sightwords_backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the backend for my Sightwords App.
 
-Things you may want to cover:
+Sightwords is an app to help people spell words. Words are checked for accuracy and color coded to indicate errors.
 
-* Ruby version
+The backend for this app is https://github.com/nlewis84/sightwords_frontend.
 
-* System dependencies
+## Setup
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* start Postgres Server with sudo service postgresql start
+* start Rails Server with rails s
+* open index.html in the sightwords_frontend directory
