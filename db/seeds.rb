@@ -18,9 +18,12 @@ Sightword.create(word: "it", pronunciation_url: "https://static.sfdict.com/audio
 Sightword.create(word: "this", pronunciation_url: "https://static.sfdict.com/audio/T02/T0243500.mp3", list_id: 1)
 Sightword.create(word: "can", pronunciation_url: "https://static.sfdict.com/audio/C00/C0078900.mp3", list_id: 1)
 Sightword.create(word: "go", pronunciation_url: "https://static.sfdict.com/audio/G02/G0220400.mp3", list_id: 1)
-Sightword.create(word: "me", pronunciation_url: "https://static.sfdict.com/audio/M02/M0240900.mp3", list_id: 1)
-Sightword.create(word: "is", pronunciation_url: "https://static.sfdict.com/audio/I03/I0315300.mp3", list_id: 1)
-Sightword.create(word: "we", pronunciation_url: "https://static.sfdict.com/audio/W00/W0070900.mp3", list_id: 1)
-Sightword.create(word: "he", pronunciation_url: "https://static.sfdict.com/audio/H01/H0133500.mp3", list_id: 1)
-Sightword.create(word: "at", pronunciation_url: "https://static.sfdict.com/audio/NEW/NEW10235.mp3", list_id: 1)
-Sightword.create(word: "up", pronunciation_url: "https://static.sfdict.com/audio/U01/U0139300.mp3", list_id: 1)
+
+List.create(name: "Medium-Easy")
+
+Sightword.create(word: "me", pronunciation_url: "https://static.sfdict.com/audio/M02/M0240900.mp3", list_id: 2)
+Sightword.create(word: "is", pronunciation_url: "https://static.sfdict.com/audio/I03/I0315300.mp3", list_id: 2)
+Sightword.create(word: "we", pronunciation_url: "https://static.sfdict.com/audio/W00/W0070900.mp3", list_id: 2)
+Sightword.create(word: "he", pronunciation_url: "https://static.sfdict.com/audio/H01/H0133500.mp3", list_id: 2)
+Sightword.create(word: "at", pronunciation_url: "https://static.sfdict.com/audio/NEW/NEW10235.mp3", list_id: 2)
+Sightword.create(word: "up", pronunciation_url: "https://static.sfdict.com/audio/U01/U0139300.mp3", list_id: 2)
